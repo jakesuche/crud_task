@@ -1,0 +1,8 @@
+.button_group{
+    gap: 10px;
+    margin-right: 71px;
+}
+
+.error{
+    border: 1px solid red
+}

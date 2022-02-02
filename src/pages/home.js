@@ -27,7 +27,6 @@ const LayoutHeader = () => {
 };
 
 const Home = (props) => {
-  console.log(props);
   React.useEffect(() => {
     if (props?.users?.length > 0) {
       return false;

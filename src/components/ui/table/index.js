@@ -35,7 +35,7 @@ const Table = (props) => {
           <tbody>
             {props?.users?.sort((a,b)=>a.name.localeCompare(b.name),'es', {sensitivity: 'base'}).map((user, id) => {
               return (
-                <tr lassName={`${styles.tr}`} key={user?.id} >
+                <tr className={`${styles.tr}`} key={user?.id} >
                   <th scope="row">{id + 1}</th>
                   <td>{user?.name}</td>
                   <td>{user?.username}</td>
